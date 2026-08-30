@@ -1,0 +1,102 @@
+:root {
+  --bg-color: #a6d17b;
+  --black-main: #000000;
+  --crimson-main: #990000;
+  --white-main: #ffffff;
+  --charcoal-main: #333333;
+}
+.heading {
+  text-align: left;
+  padding-left: 20px;
+  color: var(--crimson-main);
+  text-shadow: 3px 2px 1px #333333;
+  margin: 0;
+}
+h1 {
+  text-align: left;
+  padding-left: 20px;
+  font-family: "Playfair Display", serif;
+  font-size: 6rem;
+  margin-bottom: 0;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.header-logo {
+  width: 350px;
+  height: auto;
+  margin-bottom: 0;
+}
+
+.slogan {
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+header {
+  background-color: var(--bg-color);
+  width: 100%;
+  padding: 0 0 30px 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-align: center;
+  background-color: var(--white-main);
+  font-family: "Lora", serif;
+}
+
+.gen-ui-ask {
+  font-size: 2rem;
+  margin-bottom: 2px;
+}
+
+.generate {
+  background-color: var(--charcoal-main);
+  color: white;
+  padding: 15px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+
+.text-card {
+  background-color: var(--bg-color);
+  border: 3px solid var(--charcoal-main);
+  color: black;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin: 8px;
+  text-decoration: none;
+}
+
+.text-card:hover {
+  background-color: var(--crimson-main);
+  color: white;
+}
+
+.text-card:visited {
+  text-decoration-line: underline;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.search-bar input {
+  width: 450px;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
