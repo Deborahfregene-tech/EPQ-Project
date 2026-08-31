@@ -20,23 +20,63 @@
       <div class="logo-container">
         <h1 class="heading">StudyCool</h1>
         <img
-          src="https://i.ibb.co/DfLtyLzk/Red-Black-Typography-Nine-Brand-Logo.png"
-          alt="Red Black Typography Nine Brand Logo"
-          border="0"
+          src="images/logo-png.png"
           alt="StudyCool Logo"
           class="header-logo"
         />
       </div>
       <p class="slogan">Studying makes you Cooler !</p>
     </header>
+  
+    <div class="top-row-container">
 
-    <p class="gen-ui-ask">Ask Ms. Study Anything !</p>
-
-      <button class="generate" type="submit">Generate</button>
+    
+      <div class="gen-ui-list">
+        <h3>Copy and Paste these prompts into the search bar !</h3>
+        <p>Copy and Paste any of the prompts you need to revise to generate a helpful revision source !</p>
+        
+        <p class="title-gen-ui">Macbeth</p>
+        <p>Quotes: Macbeth ambition & guilt</p>
+        <p>Character profile: Lady Macbeth</p>
+        <p>Essay plan: Macbeth supernatural</p>
+    
+        <p class="title-gen-ui">A Christmas Carol</p>
+        <p>Character mindmap: Scrooge</p>
+        <p>Plot summary: A Christmas Carol</p>
+        
+        <p class="title-gen-ui">An Inspector Calls</p>
+        <p>Quote sheet: Eva Smith</p>
+        <p>Theme map: Inspector Calls responsibility</p>
+        <p>Essay outline: An Inspector Calls</p>
+        
+        <p class="title-gen-ui">The Merchant of Venice</p>
+        <p>Quote breakdown: Shylock</p>
+        <p>Shylock vs Antonio comparison</p>
+        <p>Essay plan: Merchant of Venice prejudice</p>
+        
+        
+        <p class="title-gen-ui">Revision Resources & Timetables</p>
+        <p>Revision timetable: Macbeth & Christmas Carol</p>
+      </div>
+    
+      
+      <div class="search-column">
+        <p class="gen-ui-ask">Ask Ms. Study Anything !</p>
+    
+        <div class="search-bar">
+          <input
+            type="text"
+            id="user-input"
+            list="prompt-suggestions"
+            placeholder="Quotes: Macbeth ambition & guilt"
+          />
+          <button id="generate-btn" class="generate" type="button">Generate</button>
+        </div>
+    
+        <div id="gen-ui-output"></div>
+      </div>
+    
     </div>
-
-    <div id="gen-ui-output"></div>
-
     <section class="selection-section">
       <h2>What would you like to revise ?</h2>
 
@@ -44,8 +84,6 @@
         <a href="#macbeth" class="text-card">Macbeth</a>
         <a href="#merchant-of-venice" class="text-card">Merchant of Venice</a>
         <a href="#christmas-carol" class="text-card">A Christmas Carol</a>
-        <a href="#frankenstein" class="text-card">Frankenstein</a>
-        <a href="#animal-farm" class="text-card">Animal Farm</a>
         <a href="#inspector-calls" class="text-card">An Inspector Calls</a>
       </div>
     </section>
