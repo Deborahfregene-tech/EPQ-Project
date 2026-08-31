@@ -4,9 +4,34 @@ document.addEventListener("DOMContentLoaded", () => {
   const outputArea = document.getElementById("gen-ui-output");
 
   const IMAGE_OUTPUTS = {
-    "plot timeline: hamlet": "images/hamlet-timeline.png",
+    // Quote Analysis
+    "quote breakdown: shylock": "images/shylock-quotes.png",
+    "quotes: macbeth ambition & guilt": "images/macbeth-ambition-quotes.png",
+    "quote sheet: eva smith": "images/eva-smith-quotes.png",
+
+    // Character Analysis
     "character mindmap: scrooge": "images/scrooge-mindmap.png",
+    "character analysis: the creature": "images/creature-analysis.png",
+    "shylock vs antonio comparison": "images/shylock-antonio-comparison.png",
+    "character profile: lady macbeth": "images/lady-macbeth-profile.png",
+
+    // Plot Breakdowns
+    "plot breakdown: 7 commandments": "images/animal-farm-7-commandments.png",
+    "plot summary: a christmas carol": "images/christmas-carol-plot.png",
+
+    // Theme Maps
+    "theme map: frankenstein science vs nature":
+      "images/frankenstein-science-nature.png",
+    "theme map: inspector calls responsibility":
+      "images/inspector-calls-responsibility.png",
+    "theme map: animal farm power & corruption":
+      "images/animal-farm-power-corruption.png",
+
+    // Revision Resources: Essays & Timetables
     "essay outline: an inspector calls": "images/inspector-calls-essay.png",
+    "essay plan: macbeth supernatural": "images/macbeth-supernatural-essay.png",
+    "essay plan: merchant of venice prejudice":
+      "images/merchant-of-venice-prejudice-essay.png",
     "revision timetable: macbeth & christmas carol":
       "images/macbeth-christmas-timetable.png",
   };
@@ -19,21 +44,50 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let imageSrc = "";
 
-    if (query === "create me a plot timeline for 'hamlet'") {
-      imageSrc = IMAGE_OUTPUTS["hamlet"];
-    } else if (
-      query === "create me a mindmap for scrooge from 'a christmas carol'"
-    ) {
-      imageSrc = IMAGE_OUTPUTS["scrooge"];
-    } else if (
-      query === "create me an example essay outline for 'an inspector calls'"
-    ) {
-      imageSrc = IMAGE_OUTPUTS["inspector"];
-    } else if (
-      query ===
-      "create me a weekly revision timetable. i'm studying 'macbeth' and 'a christmas carol'."
-    ) {
-      imageSrc = IMAGE_OUTPUTS["timetable"];
+    if (query === "quote breakdown: shylock") {
+      imageSrc = "images/shylock-quotes.png";
+    } else if (query === "quotes: macbeth ambition & guilt") {
+      imageSrc = "images/macbeth-ambition-quotes.png";
+    } else if (query === "quote sheet: eva smith") {
+      imageSrc = "images/eva-smith-quotes.png";
+
+      // --- Character Analysis ---
+    } else if (query === "character mindmap: scrooge") {
+      imageSrc = "images/scrooge-mindmap.png";
+    } else if (query === "character analysis: the creature") {
+      imageSrc = "images/creature-analysis.png";
+    } else if (query === "shylock vs antonio comparison") {
+      imageSrc = "images/shylock-antonio-comparison.png";
+    } else if (query === "character profile: lady macbeth") {
+      imageSrc = "images/lady-macbeth-profile.png";
+
+      // --- Plot Breakdowns ---
+    } else if (query === "plot timeline: hamlet") {
+      imageSrc = "images/hamlet-timeline.png";
+    } else if (query === "plot breakdown: 7 commandments") {
+      imageSrc = "images/animal-farm-7-commandments.png";
+    } else if (query === "plot summary: a christmas carol") {
+      imageSrc = "images/christmas-carol-plot.png";
+
+      // --- Theme Maps ---
+    } else if (query === "theme map: frankenstein science vs nature") {
+      imageSrc = "images/frankenstein-science-nature.png";
+    } else if (query === "theme map: inspector calls responsibility") {
+      imageSrc = "images/inspector-calls-responsibility.png";
+    } else if (query === "theme map: animal farm power & corruption") {
+      imageSrc = "images/animal-farm-power-corruption.png";
+
+      // --- Revision Resources: Essays & Timetables ---
+    } else if (query === "essay outline: an inspector calls") {
+      imageSrc = "images/inspector-calls-essay.png";
+    } else if (query === "essay plan: macbeth supernatural") {
+      imageSrc = "images/macbeth-supernatural-essay.png";
+    } else if (query === "essay plan: merchant of venice prejudice") {
+      imageSrc = "images/merchant-of-venice-prejudice-essay.png";
+    } else if (query === "revision timetable: macbeth & christmas carol") {
+      imageSrc = "images/macbeth-carol-timetable.png";
+    } else if (query === "1-month literature revision schedule") {
+      imageSrc = "images/1-month-revision-schedule.png";
     }
 
     if (imageSrc) {
