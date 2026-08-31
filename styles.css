@@ -47,6 +47,7 @@ header {
 }
 
 body {
+  width: 133.33%;
   margin: 0;
   padding: 0;
   color: black;
@@ -99,4 +100,81 @@ body {
   text-align: center;
   font-size: 14px;
   margin-bottom: 15px;
+}
+
+#gen-ui-output {
+  margin: 30px auto;
+  max-width: 800px;
+  padding: 0 15px;
+}
+
+/* Image container styling */
+.generated-image-container {
+  display: inline-block;
+  border: 3px solid var(--charcoal-main);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 6px 6px 0px var(--charcoal-main);
+  background-color: var(--white-main);
+  animation: popIn 0.4s ease-out;
+}
+
+.gen-ui-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.generated-image-container:hover {
+  transform: scale(1.2); 
+  box-shadow: 10px 10px 0px var(--charcoal-main); 
+  z-index: 10; 
+}
+
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.gen-ui-list {
+  text-align:left;
+  margin-left:20px;
+}
+
+.title-gen-ui {
+  font-size: 20px;
+font-weight:bold;
+color: var(--crimson-main);
+}
+
+
+.top-row-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  gap: 40px;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+
+.gen-ui-list {
+  flex: 0 0 320px;
+  text-align: left;
+  margin-left: 0;
+}
+
+
+.search-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
