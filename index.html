@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StudyCool | A-Level Literature</title>
 
-    <!-- Google Fonts Import -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,6 +15,15 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="macbeth.html">Macbeth</a></li>
+        <li><a href="christmas-carol.html">A Christmas Carol</a></li>
+        <li><a href="inspector.html">An Inspector Calls</a></li>
+        <li><a href="merchant.html">Merchant of Venice</a></li>
+      </ul>
+    </nav>
     <header>
       <div class="logo-container">
         <h1 class="heading">StudyCool</h1>
@@ -27,42 +35,40 @@
       </div>
       <p class="slogan">Studying makes you Cooler !</p>
     </header>
-  
-    <div class="top-row-container">
 
-    
+    <div class="top-row-container">
       <div class="gen-ui-list">
         <h3>Copy and Paste these prompts into the search bar !</h3>
-        <p>Copy and Paste any of the prompts you need to revise to generate a helpful revision source !</p>
-        
+        <p>
+          Copy and Paste any of the prompts you need to revise to generate a
+          helpful revision source !
+        </p>
+
         <p class="title-gen-ui">Macbeth</p>
         <p>Quotes: Macbeth ambition & guilt</p>
         <p>Character profile: Lady Macbeth</p>
         <p>Essay plan: Macbeth supernatural</p>
-    
+
         <p class="title-gen-ui">A Christmas Carol</p>
         <p>Character mindmap: Scrooge</p>
         <p>Plot summary: A Christmas Carol</p>
-        
+
         <p class="title-gen-ui">An Inspector Calls</p>
         <p>Quote sheet: Eva Smith</p>
         <p>Theme map: Inspector Calls responsibility</p>
         <p>Essay outline: An Inspector Calls</p>
-        
+
         <p class="title-gen-ui">The Merchant of Venice</p>
         <p>Quote breakdown: Shylock</p>
         <p>Shylock vs Antonio comparison</p>
-        <p>Essay plan: Merchant of Venice prejudice</p>
-        
-        
+
         <p class="title-gen-ui">Revision Resources & Timetables</p>
         <p>Revision timetable: Macbeth & Christmas Carol</p>
       </div>
-    
-      
+
       <div class="search-column">
         <p class="gen-ui-ask">Ask Ms. Study Anything !</p>
-    
+
         <div class="search-bar">
           <input
             type="text"
@@ -70,21 +76,22 @@
             list="prompt-suggestions"
             placeholder="Quotes: Macbeth ambition & guilt"
           />
-          <button id="generate-btn" class="generate" type="button">Generate</button>
+          <button id="generate-btn" class="generate" type="button">
+            Generate
+          </button>
         </div>
-    
+
         <div id="gen-ui-output"></div>
       </div>
-    
     </div>
     <section class="selection-section">
-      <h2>What would you like to revise ?</h2>
+      <h2 class="revsie-ask">What would you like to revise ?</h2>
 
       <div class="text-grid">
-        <a href="#macbeth" class="text-card">Macbeth</a>
-        <a href="#merchant-of-venice" class="text-card">Merchant of Venice</a>
-        <a href="#christmas-carol" class="text-card">A Christmas Carol</a>
-        <a href="#inspector-calls" class="text-card">An Inspector Calls</a>
+        <a href="macbeth.html" class="text-card">Macbeth</a>
+        <a href="merchant.html" class="text-card">Merchant of Venice</a>
+        <a href="christmas-carol.html" class="text-card">A Christmas Carol</a>
+        <a href="inspector.html" class="text-card">An Inspector Calls</a>
       </div>
     </section>
 
