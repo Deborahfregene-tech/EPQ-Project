@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Macbeth Revision | StudyCool</title>
+    <title>A Christmas Carol Revision | StudyCool</title>
 
     <!-- Google Fonts & Stylesheet -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,13 +28,537 @@
 
     <!-- Page Content Container -->
     <main class="text-page-container">
-      <h1>A Christmas Carol Revision Hub</h1>
-      <p>
-        Explore character profiles, quote breakdowns, and essay plans for A
-        Christmas Carol.
-      </p>
+      <h1 class="text-page-heading">A Christmas Carol Revision Hub</h1>
+      <header class="website-header">
+        <div class="tab-buttons">
+          <button class="tab-btn active" onclick="openTab(event, 'summary')">
+            Summary
+          </button>
 
-      <!-- Content Grid or Modules Go Here -->
+          <!-- CHARACTERS DROPDOWN -->
+          <div class="dropdown">
+            <button class="tab-btn" onclick="openTab(event, 'characters')">
+              Characters ▾
+            </button>
+            <div class="dropdown-menu">
+              <a
+                href="javascript:void(0)"
+                onclick="openTab(event, 'characters', 'scrooge')"
+                >Scrooge</a
+              >
+              <a
+                href="javascript:void(0)"
+                onclick="openTab(event, 'characters', 'marley')"
+                >Jacob Marley</a
+              >
+              <a
+                href="javascript:void(0)"
+                onclick="openTab(event, 'characters', 'tiny-tim')"
+                >Tiny Tim</a
+              >
+            </div>
+          </div>
+
+          <!-- THEMES DROPDOWN -->
+          <div class="dropdown">
+            <button class="tab-btn" onclick="openTab(event, 'themes')">
+              Themes ▾
+            </button>
+            <div class="dropdown-menu">
+              <a
+                href="javascript:void(0)"
+                onclick="openTab(event, 'themes', 'ambition')"
+                >Ambition</a
+              >
+              <a
+                href="javascript:void(0)"
+                onclick="openTab(event, 'themes', 'guilt')"
+                >Guilt & Madness</a
+              >
+              <a
+                href="javascript:void(0)"
+                onclick="openTab(event, 'themes', 'supernatural')"
+                >The Supernatural</a
+              >
+            </div>
+          </div>
+
+          <!-- QUOTES DROPDOWN -->
+          <div class="dropdown">
+            <button class="tab-btn" onclick="openTab(event, 'quotes')">
+              Quotes ▾
+            </button>
+            <div class="dropdown-menu">
+              <a
+                href="javascript:void(0)"
+                onclick="openTab(event, 'quotes', 'ebenezer')"
+                >Ebenezer Scrooge</a
+              >
+              <a
+                href="javascript:void(0)"
+                onclick="openTab(event, 'quotes', 'poverty')"
+                >Social Injustice, Poverty, & Malthusian Greed</a
+              >
+              <a
+                href="javascript:void(0)"
+                onclick="openTab(event, 'quotes', 'family')"
+                >The Supernatural, Guilt, & Family Warmth</a
+              >
+            </div>
+          </div>
+
+          <button class="tab-btn" onclick="openTab(event, 'quiz')">Quiz</button>
+        </div>
+      </header>
+
+      <section class="main-content">
+        <!-- SUMMARY TAB -->
+        <div id="summary" class="tab-content active">
+          <p class="section-heading0">Chapter 1: Marley's Ghost</p>
+          <p>
+            On a freezing Christmas Eve, Ebenezer Scrooge, a bitter and miserly
+            London moneylender, rejects his nephew's invitation to Christmas
+            dinner, refuses to give to charity, and begrudgingly grants his
+            clerk, Bob Cratchit, the day off for the holiday. That night,
+            Scrooge is visited by the ghost of his dead business partner, Jacob
+            Marley. Bound in chains forged by a lifetime of greed, Marley warns
+            Scrooge that he faces a similar fate unless he changes. He informs
+            Scrooge that three spirits will visit him over the course of the
+            night.
+          </p>
+
+          <p class="section-heading0">
+            Chapter 2: The First of the Three Spirits
+          </p>
+          <p>
+            The Ghost of Christmas Past takes Scrooge to see his early life.
+            Scrooge watches his lonely childhood at boarding school, followed by
+            happier times as an apprentice to Master Fezziwig. However, the
+            ghost shows how Scrooge’s growing obsession with wealth eventually
+            caused his fiancée, Belle, to break off their engagement.
+            Overwhelmed by remorse and grief over his past choices, Scrooge
+            forces the spirit to return him to his bedroom.
+          </p>
+
+          <p class="section-heading0">
+            Chapter 3: The Second of the Three Spirits
+          </p>
+          <p>
+            The Ghost of Christmas Present shows Scrooge how others are
+            celebrating the holiday. They visit the home of Bob Cratchit, where
+            the family shares a small meal with warmth and love. Scrooge learns
+            about Tiny Tim, Cratchit’s sick, disabled son, and feels deep guilt
+            when the ghost predicts the boy will die if their living conditions
+            do not improve. The ghost also takes Scrooge to his nephew Fred's
+            lively dinner party, before revealing two starving children hidden
+            beneath its robes—Ignorance and Want—warning Scrooge to beware of
+            them.
+          </p>
+
+          <p class="section-heading0">Chapter 4: The Last of the Spirits</p>
+          <p>
+            The silent Ghost of Christmas Yet to Come leads Scrooge through a
+            dark future. Scrooge watches businessmen mock the death of an
+            unnamed, universally disliked man whose belongings are looted right
+            after his death. In contrast, the Cratchit family grieves the loss
+            of Tiny Tim. When Scrooge demands to know who the dead man is, the
+            spirit leads him to a neglected grave bearing the name Ebenezer
+            Scrooge. Desperate to avoid this fate, Scrooge vows to change his
+            ways and honor Christmas in his heart.
+          </p>
+
+          <p class="section-heading0">Chapter 5: The End of It</p>
+          <p>
+            Scrooge wakes up on Christmas morning relieved to find he is still
+            alive and has time to change. Filled with joy, he anonymously buys a
+            huge turkey for the Cratchit family, donates generously to charity,
+            and joins his nephew Fred for Christmas dinner. The next day, he
+            gives Bob Cratchit a raise and promises to support his family.
+            Scrooge becomes a father figure to Tiny Tim—who survives—and earns a
+            reputation for keeping the spirit of Christmas alive every day.
+          </p>
+        </div>
+
+        <!-- CHARACTERS TAB -->
+        <div id="characters" class="tab-content">
+          <div class="characters">
+            <p id="scrooge" class="section-heading1">Ebenezer Scrooge</p>
+            <p class="section-heading0">Introduction and Symbolic Role</p>
+            <p>
+              Ebenezer Scrooge serves as Dickens's primary vehicle for social
+              criticism, embodying the unfeeling attitudes of 19th-century
+              wealthy elites through a dramatic arc of moral awakening and
+              redemption. Introduced in Stave I as a misanthropic miser who is
+              "hard and sharp as flint" and "solitary as an oyster," Scrooge
+              views human relationships through a strictly financial lens and
+              actively rejects civic responsibility. Dickens uses the simile of
+              the oyster to foreshadow that despite Scrooge's cold exterior, a
+              pearl of humanity remains locked inside him.
+            </p>
+
+            <p class="section-heading0">Economic Ideology and Social Context</p>
+            <p>
+              Scrooge’s early worldview explicitly reflects Malthusian economic
+              theory—the contemporary belief that poverty was an inevitable
+              result of overpopulation—most clearly demonstrated when he asserts
+              that the destitute "had better do it, and decrease the surplus
+              population" rather than receive charity. Through this rhetoric,
+              Dickens positions Scrooge as an allegory for the callousness of
+              laissez-faire capitalism and the cruel realities of the Poor Law
+              of 1834, which forced the impoverished into brutal union
+              workhouses.
+            </p>
+
+            <p class="section-heading0">Psychological Roots of Isolation</p>
+            <p>
+              Scrooge's emotional detachment is not entirely innate; the Ghost
+              of Christmas Past reveals that his obsession with financial
+              security stems from childhood neglect and the trauma of being
+              abandoned at school. The spirit observes "a solitary child,
+              neglected by his friends, is left there still," proving that
+              Scrooge's miserliness developed as a defense mechanism against
+              emotional vulnerability. This relentless pursuit of monetary
+              security eventually drove away his fiancée, Belle, who broke their
+              engagement after realizing gold had replaced her in his heart.
+            </p>
+
+            <p class="section-heading0">
+              Moral Re-education and Transformation
+            </p>
+            <p>
+              As he travels through the subsequent staves, Scrooge transitions
+              from a defensive observer to an emotionally shattered man
+              undergoing moral re-education. Witnessing the loving resilience of
+              the Cratchit family and the tragic vulnerability of Tiny Tim
+              forces him to confront the human cost of his apathy. The arc
+              reaches its climax in Stave IV with the terrifying, silent vision
+              of his own unmourned death, leading to his desperate syntax shift
+              when he declares, "I am not the man I was. I will not be the man I
+              must have been but for this intercourse."
+            </p>
+
+            <p class="section-heading0">Redemption and Spiritual Rebirth</p>
+            <p>
+              Scrooge's transformation culminates in Stave V, where the cold,
+              heavy imagery of Stave I is replaced by triadic similes of
+              spiritual liberation as he proclaims he is "as light as a feather,
+              as happy as an angel, as merry as a schoolboy." By evolving from
+              an isolated archetype of Victorian greed into a benevolent father
+              figure who saves Tiny Tim and raises Bob Cratchit's salary,
+              Scrooge ultimately illustrates Dickens's central thesis: that
+              systemic poverty can be combated through personal empathy, moral
+              accountability, and active philanthropy.
+            </p>
+          </div>
+
+          <div class="characters">
+            <p id="marley" class="section-heading1">Jacob Marley</p>
+            <p class="section-heading0">Introduction and Symbolic Role</p>
+            <p>
+              Jacob Marley serves as Dickens's primary catalyst for Scrooge's
+              redemption, acting as a terrifying moral warning of the eternal
+              consequences of greed and apathy. Introduced in Stave I as a
+              phantom bound in heavy chains forged from ledgers, cashboxes, and
+              padlocks, Marley represents the spiritual damnation awaiting those
+              who prioritize monetary gain over human connection. Having been
+              dead seven years to the day, his appearance establishes the
+              supernatural framework of the novella and signals the transition
+              from a realistic critique of Victorian London to a gothic moral
+              allegory.
+            </p>
+
+            <p class="section-heading0">Economic Ideology and Social Context</p>
+            <p>
+              During his life, Marley was Scrooge's sole business partner and
+              moral double, sharing his ruthless adherence to laissez-faire
+              capitalism and contempt for the poor. In his spectral state,
+              Marley laments his past devotion to commerce above humanity,
+              famously exclaiming, "Mankind was my business. The common welfare
+              was my business; charity, mercy, forbearance, and benevolence,
+              were, all, my business." Through Marley, Dickens directly attacks
+              the Victorian middle-class belief that civic responsibility ends
+              with paying taxes and supporting workhouses, demonstrating that
+              passive indifference to suffering is a grave moral failing.
+            </p>
+
+            <p class="section-heading0">Psychological and Spiritual Torment</p>
+            <p>
+              Marley’s punishment is defined by ceaseless wandering and the
+              agony of perpetual regret, as he is forced to witness human
+              suffering without any ability to alleviate it. He tells Scrooge,
+              "I wear the chain I forged in life... I made it link by link, and
+              yard by yard," using an extended metaphor where physical weight
+              symbolizes accumulated sin and neglected moral duty. Marley warns
+              Scrooge that his own invisible chain is already far longer and
+              heavier, instilling the existential dread required to break
+              Scrooge's deeply ingrained defense mechanisms.
+            </p>
+
+            <p class="section-heading0">Function in the Narrative Structure</p>
+            <p>
+              As the first supernatural entity to appear, Marley performs a
+              vital structural role by establishing the conditions of Scrooge's
+              salvation. He acts out of a lingering, distorted affection for his
+              former partner, granting Scrooge a unique opportunity for grace
+              that Marley himself was denied. By announcing the arrival of the
+              Three Spirits, Marley initiates Scrooge’s journey of
+              self-reflection and frames the entire narrative as an urgent,
+              time-sensitive quest to rewrite one's moral destiny.
+            </p>
+
+            <p class="section-heading0">Legacy and Moral Lesson</p>
+            <p>
+              Marley’s brief presence leaves an indelible mark on the novella's
+              thematic trajectory, cementing Dickens’s message on the permanence
+              of earthly actions. Unlike Scrooge, who is granted the temporal
+              space to reform, Marley remains a tragic figure condemned to
+              eternal remorse, serving as an absolute baseline for what happens
+              when a life is governed by avarice. His character ultimately
+              reinforces Dickens's central warning: that true wealth lies in
+              active benevolence, and that failing to act in life will
+              inevitably forge a burden too heavy to bear in death.
+            </p>
+          </div>
+          <div class="characters">
+            <p id="tiny-tim" class="section-heading1">Tiny Tim</p>
+            <p <p class="section-heading0">Introduction and Symbolic Role</p>
+            Tiny Tim Cratchit serves as the emotional heart of A Christmas Carol
+            and Dickens's most poignant symbol of the innocent, vulnerable poor.
+            Introduced in Stave III as the youngest child of Bob Cratchit, Tim
+            is physically disabled and critically ill, relying on a small crutch
+            and an iron frame to walk. Rather than presenting him as a fully
+            fleshed, complex character, Dickens constructs Tim as a sentimental
+            archetype of Christian innocence and angelic patience, designed
+            explicitly to evoke deep pathos and shatter the apathy of the
+            Victorian middle and upper classes.
+
+            <p <p class="section-heading0">
+              Economic Ideology and Social Context
+            </p>
+            Through Tiny Tim, Dickens directly dismantles Scrooge’s cold
+            Malthusian rhetoric from Stave I regarding the "surplus population."
+            Tim represents the human faces behind abstract economic
+            statistics—the innocent children whose lives were cut short by
+            poverty, poor sanitation, and lack of healthcare in Victorian
+            England. By showcasing how Tim's worsening condition is caused
+            solely by his family's inability to afford medical treatment on Bob
+            Cratchit's meager wages, Dickens demonstrates that poverty is not a
+            moral failing of the poor, but a structural failure of a society
+            that refuses to distribute its wealth fairly.
+
+            <p <p class="section-heading0">
+              Christian Symbolism and Moral Impact
+            </p>
+            Tiny Tim functions as a spiritual anchor within the novella,
+            consistently associated with Christian piety, selflessness, and
+            grace. During his visit to church, Bob Cratchit recalls that Tim
+            hoped the congregation saw him because he was a cripple, thinking
+            "it might be pleasant to them to remember upon Christmas Day, who
+            made lame beggars walk, and blind men see." His iconic benediction,
+            "God bless us every one!", contrasts sharply with Scrooge's
+            misanthropic "Bah! Humbug!", serving as a universal prayer of
+            inclusion that emphasizes community, gratitude, and unconditional
+            goodwill regardless of earthly hardship.
+
+            <p <p class="section-heading0">
+              Catalyst for Scrooge's Transformation
+            </p>
+            Tim acts as the pivotal emotional turning point in Scrooge’s moral
+            re-education. When Scrooge asks the Ghost of Christmas Present if
+            Tiny Tim will live, the spirit echoes Scrooge’s own cruel words back
+            to him: "If these shadows remain unaltered by the Future, the child
+            will die. What then? If he be like to die, he had better do it, and
+            decrease the surplus population." Confronted with the immediate,
+            personal consequence of his greed, Scrooge is overcome with grief
+            and guilt, marking his first genuine display of empathy for a
+            specific individual outside of his own past.
+
+            <p <p class="section-heading0">Legacy and Narrative Resolution</p>
+            <p>
+              In Stave IV, the tragic alternate reality of Tim’s death leaves
+              the Cratchit family heartbroken, highlighting how the loss of an
+              innocent life shatters a loving home and driving Scrooge to plead
+              for a chance to alter his fate. In Stave V, this dark timeline is
+              averted through Scrooge's redemption; Scrooge raises Bob's salary,
+              provides financial security, and becomes "a second father" to Tim,
+              who does not die. Ultimately, Tiny Tim’s survival serves as the
+              ultimate proof of Scrooge's true reformation, illustrating
+              Dickens's optimistic belief that active, personal philanthropy can
+              directly preserve human life and reform society.
+            </p>
+          </div>
+        </div>
+
+        <!-- THEMES TAB -->
+        <div id="themes" class="tab-content">
+          <div class="themes">
+            <div id="ambition">
+              <p class="section-heading1">Ambition</p>
+
+              In *A Christmas Carol*, ambition is presented primarily through
+              the lens of economic gain and material accumulation, serving as a
+              destructive force that corrupts human empathy. Scrooge’s
+              relentless drive to secure financial independence quickly turns
+              into an obsessive avarice, isolating him from society and
+              dismantling his personal relationships. This is best illustrated
+              in Stave II during his memory with Belle, who breaks their
+              engagement because
+              <strong>"another idol has displaced me... A golden one." </strong>
+              When Scrooge attempts to defend his pursuit of wealth, Belle
+              highlights how his ambition has warped his moral character,
+              noting,<strong>
+                "You fear the world too much. All your other hopes have merged
+                into the hope of being beyond the chance of its sordid
+                reproach."</strong
+              >
+              Dickens uses this moment to critique the capitalist ambition of
+              19th-century Industrial Britain, demonstrating that when financial
+              ambition is uncoupled from social responsibility, it yields
+              emotional ruin and spiritual poverty rather than true fulfillment.
+
+              <p id="guilt" class="section-heading1">Guilt & Madness</p>
+              Dickens explores guilt and psychological distress as the natural
+              consequences of a life devoid of compassion and moral
+              accountability. Jacob Marley serves as the ultimate embodiment of
+              post-mortem guilt; his spirit is eternally tormented by the heavy
+              burden he created, lamenting, "I wear the chain I forged in
+              life... I made it link by link, and yard by yard I girded it on of
+              my own free will." Marley's anguished realization that
+              <strong>
+                "No space of regret can make amends for one life's opportunity
+                misused"</strong
+              >
+              highlights the agony of perpetual remorse. For Scrooge, guilt acts
+              as an agent of awakening rather than pure punishment. As the
+              spirits force him to confront the suffering of Tiny Tim and his
+              own tragic end, his emotional defense mechanisms collapse.
+              Overcome with existential dread in Stave IV, he falls before the
+              Ghost of Christmas Yet to Come, crying, "I am not the man I was. I
+              will not be the man I must have been but for this intercourse,"
+              proving that confronting one's moral failures and guilt is a
+              necessary precursor to spiritual rebirth.
+
+              <p id="supernatural" class="section-heading1">The Supernatural</p>
+              The supernatural framework functions as the crucial structural
+              mechanism through which Dickens enacts Scrooge's moral
+              transformation. By employing gothic conventions—such as Marley’s
+              unearthly groan, clanking chains, and spectral visitations—Dickens
+              disrupts the rigid, rational, and cold Victorian reality that
+              Scrooge inhabits. Each ghost operates with a specific symbolic
+              authority: the Ghost of Christmas Past brings
+              <strong>"a flux of clear bright light" </strong>that illuminates
+              repressed memories, while the Ghost of Christmas Present reveals
+              the visceral horrors of society under its robes, declaring, "This
+              boy is Ignorance. This girl is Want. Beware them both, and all of
+              their degree." Finally, the silent, shrouded Ghost of Christmas
+              Yet to Come creates an atmosphere of terror, pointing with a
+              "slowly moved" finger toward Scrooge's grave. The supernatural
+              elements bypass human stubbornness and intellectual
+              rationalization, allowing Dickens to deliver a profoundly moral
+              and socio-political critique through an engaging, fable-like
+              narrative structure.
+            </div>
+          </div>
+        </div>
+        <div id="quotes" class="tab-content">
+          <div id="ebenezer">
+            <p class="section-heading1">
+              Ebenezer Scrooge & The Path to Redemption
+            </p>
+            <p>
+             <strong> "Hard and sharp as flint, from which no steel had ever struck out
+              generous fire; secret, and self-contained, and solitary as an
+              oyster."</strong> (Stave 1) </p>
+              <p><strong>"External heat and cold had little influence on
+              Scrooge. No warmth could warm, no wintry weather chill him."</strong>
+              (Stave 1)</p>
+              <p><strong> "A squeeze, wrenching, grasping, scraping, clutching,
+              covetous, old sinner!"</strong> (Stave 1) 
+              </p>
+              <strong>"What’s Christmas time to you but
+              a time for paying bills without money; a time for finding yourself
+              a year older, but not an hour richer?"</strong> — Scrooge (Stave 1)</p>
+              <p> <strong>"I am not the man I was. I will not be the man I must have been but for
+              this intercourse." —</strong> Scrooge (Stave 4) </p>
+              <p> <strong>"I will honour Christmas in my heart, and try to keep it all the year. I will live in the
+              Past, the Present, and the Future."</strong> — Scrooge (Stave 4) </p> 
+              <p><strong>"I am as light as a feather, I am as happy as an angel, I am as merry as a
+              schoolboy."</strong> — Scrooge (Stave 5)</p>
+            </p>
+          </div>
+
+          <div id="poverty">
+            <p class="section-heading1">Social Injustice, Poverty, & Malthusian Greed</p>
+                <p><strong>"If they would rather die... they had better do it, and decrease 
+                  the surplus population."</strong> — Scrooge (Stave 1)</p>
+               <p><strong>"Are there no prisons?... And the Union workhouses?" </strong>
+                Scrooge / Ghost of Christmas Present (Staves 1 & 3)</p>
+                <p><strong>"Another idol has displaced me... A golden one."</strong>— Belle (Stave 2)</p>
+                <p><strong>"You fear the world too much. All your other hopes have merged into the hope 
+                  of being beyond the chance of its sordid reproach."</strong> — Belle (Stave 2)</p>
+                
+             <p><strong>   "This boy is Ignorance. This girl is Want. Beware them both, and all of their
+               degree, but most of all beware this boy."</strong> — Ghost of Christmas Present (Stave 3)</p>
+                
+              <p><strong>"His wealth is of no use to him. He don’t do any good with it. He don’t make
+                 himself comfortable with it."</strong> — Fred (Stave 3)</p>
+              </div>
+                
+                <div id="family">
+              <p class="section-heading1">The Supernatural, Guilt, & Family Warmth</p>
+                <p><strong>"I wear the chain I forged in life... I made it link by link, 
+                  and yard by yard I girded it on of my own free will." </strong>— Marley (Stave 1)</p>
+              <p><strong>  "Mankind was my business. The common welfare was my business; charity, mercy,
+                 forbearance, and benevolence, were, all, my business."</strong> — Marley (Stave 1)</p>
+                <p></strong>"No space of regret can make amends for one life’s opportunity misused!"</strong>
+                   — Marley (Stave 1)</p>
+                <p><strong>"God bless us every one!" </strong>— Tiny Tim (Staves 3 & 5)</p>
+                <p><strong>"There was never such a goose. Bob said he didn’t believe there
+                   ever was such a goose cooked."</strong>(Stave 3)</p>
+            <p><strong>"There is nothing in the world so irresistibly contagious as laughter
+               and good-humour." </strong></(Stave 3)</p>
+                <p><strong> "And to Tiny Tim, who did NOT die, he was a second father." </strong>(Stave 5)</p>
+            </div>
+        </div>
+
+     <container class="quiz">
+        <div id="quiz" class="tab-content">
+         <div class="quiz-controls">
+          <label for="mode-select">Select Quiz Type:</label>
+          <select id="mode-select">
+            <option value="who-said-it">Who Said This? (4 Options)</option>
+<option value="theme-fit">What Theme Fits? (4 Options)</option>
+<option value="chapter-check">Which Stave / Chapter? (4 Options)</option>
+</select>
+<button id="start-btn" class="start-btn">Start Game</button>
+</div>
+
+<div id="quiz-card" class="quiz-card hidden">
+
+  <div class="quiz-header">
+    
+   
+    <div id="character-avatar" class="avatar neutral">😐</div>
+
+   
+    <div class="quiz-meta">
+      <div id="timer-display">⏱️ Time Left: <span id="time-left">10</span>s</div>
+      <div id="score-display">⭐ Score: <span id="score">0</span></div>
+    </div>
+
+    <div id="question-text" class="question-text">
+      Question text will appear here...
+    </div>
+  
+    <div id="options-container" class="options-grid"></div>
+  
+  </div>
+
+  </div>
+         </div>
+        </div>
+      </container>
+      </section>
     </main>
 
     <script src="script.js"></script>
